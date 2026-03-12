@@ -11,5 +11,7 @@ A quick Machine Learning project to group mall customers based on their **Annual
 ## 🎯 Results
 Using the **Elbow Method** and **Silhouette Analysis**, the customers were successfully segmented into **5 distinct clusters**, representing different purchasing behaviors (e.g., VIPs, Savers, Careless spenders).
 
+## Deploy Link:
+https://machine-learning-algorithms-mall-customer-segmentation-project.streamlit.app/
 ---
 *Created by Omnia*
