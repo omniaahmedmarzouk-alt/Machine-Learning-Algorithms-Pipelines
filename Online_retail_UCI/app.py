@@ -21,7 +21,7 @@ f_score   = st.slider('F Score', 1, 5)
 rfm_total = r_score + f_score
 
 if st.button('Predict'):
-    X = np.array([[recency, frequency, r_score, f_score, rfm_total]])
+    X = np.array([[recency, frequency, r_score, f_score]])
     prediction = model.predict(X)
 
     if prediction[0] == 1:
